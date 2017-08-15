@@ -19,6 +19,7 @@
       "ignoreStrings": true,
       "ignoreTemplateLiterals": true,
     }],
+    "no-param-reassign": 0,
     "comma-dangle": 0,
     "padded-blocks": 0
   }
