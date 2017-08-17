@@ -10,7 +10,7 @@ yarn add yunbi2   # npm i -S yunbi2
 
 ## Documentation
 
-```
+```javascript
 const YunbiClient = require('yunbi2');
 const client = new YunbiClient({
   accessKey: '<your accessKey>',
@@ -20,7 +20,7 @@ const client = new YunbiClient({
 
 ### callback style
 
-```
+```javascript
 // 遵循 node.js 中的 [error first callback](http://www.codingdefined.com/2015/10/what-are-error-first-callbacks-in-nodejs.html) 风格
 client.getMarkets({}, (err, data) => {
   console.log({ action: 'getMarkets', err, data });
@@ -29,7 +29,7 @@ client.getMarkets({}, (err, data) => {
 
 ### async style
 
-```
+```javascript
 // 使用 async/await 时记得用 try/catch 处理错误
 (async () => {
   try {
@@ -84,3 +84,5 @@ Issues and Pull Requests are welcome!
 Happy Hacking!
 
 ## License
+
+[MIT](./LICENSE)
