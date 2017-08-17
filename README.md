@@ -1,4 +1,4 @@
-# Node.js SDK for https://yunbi.com API
+# Node.js SDK for [yunbi.com](https://yunbi.com) API
 
 > for detail info please read [documentation](https://yunbi.com/swagger/#/) and [guide](https://yunbi.com/documents/api/guide)
 
